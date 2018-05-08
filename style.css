@@ -1,0 +1,34 @@
+.container-fluid {
+  width: 100%;
+  height: 120vh;
+  background-size: 100vw 150vh;
+  background-repeat: no-repeat;
+  background-color: #dfbf9f;
+}
+.heading {
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+  color: #862d2d;
+}
+h1 {
+  font: 7.5vw "Amatic SC", sans-serif;
+  font-weight: bold;
+}
+.weather {
+  margin: 2vw 28vw 1vw 28vw;
+  padding: 0.5vw 5vw 1vw 5vw;
+}
+.btn {
+  font-size: 1.5vw;
+  background-color: #ecd9c6;
+  display: none;
+}
+.btn:focus, .btn:active {
+   outline: none !important;
+}
+p {
+  margin: 0vw 2vw 0.7vw 2vw;
+  font: 3vw "Amatic SC", sans-serif;
+  font-weight: bold;
+  color: #261a0d;
+}
