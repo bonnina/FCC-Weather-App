@@ -1,3 +1,22 @@
+@media screen and (orientation: landscape) {
+  #city {
+    font-size: 4vw;
+  }
+  #temp, #sky1, #sky2, #img  {
+    font-size: 6vw;
+    line-height: 0.95;
+  }
+  .heading {
+  margin-top: 4vh;
+  }
+  .weather {
+    width: 45vw;
+  }
+  .btn {
+    font-size: 10vw;
+    line-height: 0.6;
+  }
+}
 .container-fluid {
   width: 100%;
   height: 120vh;
