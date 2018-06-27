@@ -45,7 +45,7 @@ $(function(){
   'background-image' : 'url(https://images.unsplash.com/photo-1491847523371-3f1a9cb4b93b?auto=format&fit=crop&w=334&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D)'
    }); 
    $(".btn").removeClass("btn-md").addClass("btn-xs");   
-   $(".weather").css({'height' : '110vw'});
+   $(".weather").css({'width' : '80vw', 'margin-left' : '6vw'});
    $("h1").css({'font-size' : '17vw'});
    $("p").css({'font-size' : '8vw'});
    $(".btn").css({'font-size' : '4vw'});
