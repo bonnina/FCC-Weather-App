@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>FCC Weather App Machine</title>
+        <title>FCC Weather App</title>
 	    
         <meta content-type="text/html" charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,11 +19,11 @@
                 <h1>Your weather now:</h1>
             </div>
             <button class="btn btn-md">switch to °F</button>
-            <div class="weather"><img id="img" src="#"/>
-                <p id="city"></p>
-                <p id="temp"></p>
-                <p id="sky1"></p>
-                <p id="sky2"></p>
+            <div class="weather"><img id="img" src="#" alt="current weather icon"/>
+                <p id="city" aria-label="city"></p>
+                <p id="temp" aria-label="temperature"></p>
+                <p id="sky1" aria-label="sky and precipitation"></p>
+                <p id="sky2" aria-label="sky or precipitation"></p>
             </div>
         </div>
             <div class="footer"></div>
